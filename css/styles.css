@@ -104,7 +104,7 @@ section {
     color: #404bbf;;
 }
 
-.current-page:hover::after {
+.current-page::after {
     position: absolute;
     bottom: -1px;
     left: 0;
@@ -469,6 +469,7 @@ section {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-link:hover {
-    background-color: #404BBF;
+.contact-link:hover,
+.contact-link:focus {
+    background-color: #31d0aa;
 }
